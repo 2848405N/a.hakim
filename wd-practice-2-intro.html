@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>iXC</title>
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="iXC" />
+  <meta property="og:description" content="A Gambler, Risk Taker." />
+  <meta property="og:image" content="image1.png" />
+  <meta property="og:url" content="https://yourwebsite.com" />
+  <meta property="og:type" content="website" />
+  
+  <!-- Twitter Card Meta Tags (optional, for Twitter) -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="iXC" />
+  <meta name="twitter:description" content="A Gambler, Risk Taker." />
+  <meta name="twitter:image" content="image1.png" />
+  
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #000000;
+      color: #ffffff;
+      display: flex;
+      flex-direction: row; /* Header on the left, main content on the right */
+      height: 100vh; /* Make sure the body takes up full height */
+      overflow: hidden; /* Prevent scrolling */
+    }
+
+    header {
+      background: #000000;
+      padding: 1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      width: 25%; /* Width of the header */
+      display: flex;
+      flex-direction: column; /* Stack name and image vertically */
+      justify-content: center;
+      align-items: flex-start; /* Align content to the left */
+      position: relative; /* To position the background image */
+      height: 100%; /* Full height */
+      background-image: url('image1.png'); /* Initial background */
+      background-size: cover;
+      background-position: center;
+      transition: background-image 0.3s ease-in-out;
+    }
+
+    .image-container {
+      display: none; /* Hide the image container */
+    }
+
+    header:hover {
+      background-image: url('image2.jpeg'); /* Change background on hover */
+    }
+
+    main {
+      flex-grow: 1; /* Main content takes up the remaining space */
+      padding: 2rem 1rem;
+      width: 75%; /* Main content takes up 75% of the screen */
+      overflow-y: auto; /* Enable scrolling for content if necessary */
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    ul {
+      display: inline-block; /* Center the list */
+      text-align: left;       /* Keep bullets left aligned inside center */
+      margin: 1rem auto;
+      padding-left: 1.5rem;
+    }
+
+    h1 {
+      font-size: 3rem; /* Adjust the size as needed */
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+  </header>
+
+  <main>
+    <section>
+        <h1>Abdul Hakim</h1>
+      <h2>About Me</h2>
+      <p>A Gambler, Risk Taker.</p>
+    </section>
+    <section>
+        <h2>Connect With Me</h2> 
+        <a href="https://www.instagram.com/ixcgaming" target="_blank">
+        <img src="instagram.png" alt="Instagram logo" style="width: 50px; height: auto;" />
+        </a>
+    </section>
+    <section>
+      <h2>Professional Experience</h2>
+      <p>
+        I bring 10 years of combined experience in IT and customer service.<br>
+        Over the past 8 years, I’ve worked in various IT roles — starting as a Desktop Engineer for 2 years, 
+        then moving into Cloud Engineering for 5 years, and currently working in a Helpdesk role.<br>
+        Alongside that, I’ve consistently built strong customer service skills, with a decade of experience supporting users, 
+        solving problems, and keeping things running smoothly.
+      </p>
+      <ul>
+        <li>I have played with both Windows & Linux</li>
+        <li>I have a lot of software knowledge: SAP, AWS, Microsoft, etc.</li>
+        <li>I’ve done freelance work creating websites and setting up CRMs for small businesses</li>
+        <li>Currently studying Diploma in Digital Media, with plans to upscale to Advanced Diploma in Psychology</li>
+      </ul>
+      <p>Whether it’s a tech glitch or a people problem, I’ve got it covered.</p>
+    </section>
+  </main>
+
+</body>
+</html>
